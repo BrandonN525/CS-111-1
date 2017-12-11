@@ -1,0 +1,27 @@
+Test cases for Assignment 1 of CS 111:
+
+Problem 1:
+Input (num1, num2):		        Expected Output:	       		Output:
+0 5					5					5
+7 3					10					10
+7 9					16					16
+4 2					6					6
+9 10					19					19
+
+Problem 2:
+Input (root1, root2, root3):		Expected Output:			Output:
+5 -3 2					x^3 + -4x^2 + -11x + 30			x^3 + -4x^2 + -11x + 30
+4 5 1					x^3 + -10x^2 + 29x + -20		x^3 + -10x^2 + 29x + -20
+-7 2 5					x^3 + 0x^2 + -39x + 70			x^3 + 0x^2 + -39x + 70
+
+
+
+Problem 3:
+Input (d, f, g, m, b):		        Expected Output (x1,y1) + (x2,y2):	       		Output(x1,y1) + (x2,y2):
+0 2 1 4 8	                        ERROR			       				ERROR
+4 -2 1 5 2				(1.88,11.41) + (-0.13,1.33)    				(1.88,11.41) + (-0.13,1.33) 
+-3 4 -5 1 6				ERROR			       				ERROR 
+5 2 -5 6 2				(1.62,11.89) + (-0.84,-3.09)   				(1.62,11.89) + (-0.84,3.09)
+17 2 1 -4 9				(0.53,6.87) + (-0.88,12.53)				(0.53,6.87) + (-0.88,12.53)
+3 11 7 11 2				ERROR							ERROR
+7 4 14 4 14				(0,14)							(0,14)
